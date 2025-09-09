@@ -19,8 +19,8 @@ public:
 	AAuraCharacter();
 
 private:
-
-	void InitAbilityActorInfo();
+	
+	virtual void InitAbilityActorInfo() override;
 	
 public:
 
