@@ -19,10 +19,10 @@ class AURA_API AAuraPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 
-	UPROPERTY(EditAnywhere, Category = "Custom|Input")
+	UPROPERTY(EditAnywhere, Category = "AAACustom|Input")
 	TObjectPtr<UInputMappingContext> AuraContext;
 
-	UPROPERTY(EditAnywhere, Category = "Custom|Input")
+	UPROPERTY(EditAnywhere, Category = "AAACustom|Input")
 	TObjectPtr<UInputAction> MoveAction;
 
 	IEnemyInterface* LastActor;

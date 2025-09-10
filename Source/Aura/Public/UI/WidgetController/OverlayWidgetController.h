@@ -41,24 +41,24 @@ class AURA_API UOverlayWidgetController : public UAuraWidgetController
 
 protected:
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Widget Data")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "AAACustom|Widget Data")
 	TObjectPtr<UDataTable> MessageWidgetDataTable;
 	
 public: 
 	
-	UPROPERTY(BlueprintAssignable, Category = "GAS|Attributes")
+	UPROPERTY(BlueprintAssignable, Category = "AAACustom|GAS|Attributes")
 	FOnAttributeChangedSignature OnHealthChanged;
 
-	UPROPERTY(BlueprintAssignable, Category = "GAS|Attributes")
+	UPROPERTY(BlueprintAssignable, Category = "AAACustom|GAS|Attributes")
 	FOnAttributeChangedSignature OnMaxHealthChanged;
 
-	UPROPERTY(BlueprintAssignable, Category = "GAS|Attributes")
+	UPROPERTY(BlueprintAssignable, Category = "AAACustom|GAS|Attributes")
 	FOnAttributeChangedSignature OnManaChanged;
 
-	UPROPERTY(BlueprintAssignable, Category = "GAS|Attributes")
+	UPROPERTY(BlueprintAssignable, Category = "AAACustom|GAS|Attributes")
 	FOnAttributeChangedSignature OnMaxManaChanged;
 
-	UPROPERTY(BlueprintAssignable, Category = "GAS|Messages")
+	UPROPERTY(BlueprintAssignable, Category = "AAACustom|GAS|Messages")
 	FMessageWidgetRowSignature MessageWidgetRowDelegate;
 	
 protected:
