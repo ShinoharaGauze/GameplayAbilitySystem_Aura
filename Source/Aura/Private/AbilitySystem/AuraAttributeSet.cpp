@@ -10,8 +10,7 @@
 
 UAuraAttributeSet::UAuraAttributeSet()
 {
-	InitHealth(10.0f);
-	InitMana(10.0f);
+
 }
 
 void UAuraAttributeSet::SetEffectProperties(const FGameplayEffectModCallbackData& Data, FEffectProperties& Props) const
